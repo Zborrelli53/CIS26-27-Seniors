@@ -165,6 +165,7 @@ main h2 {
     align-items: center;
     color: var(--white);
     font-family: var(--font-head);
+    font-size: 4.5rem;
     font-weight: 700;
 }
 
