@@ -236,6 +236,34 @@ main h2 {
     padding: 3.5rem 1.5rem 1.5rem;
 }
 
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    gap: 2.5rem;
+}
+
+.footer-col ul {
+    list-style: none;
+} 
+
+.footer-col li {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.footer-col a {
+    color: var(--line);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-col a:hover {
+    color: var(--gold);
+    text-decoration: underline;
+}
+
 .footer-bottom {
     max-width: var(--max-width);
     margin: 2.5rem auto 0;
@@ -249,3 +277,5 @@ main h2 {
     flex-wrap: wrap;
     gap: 0.5rem;
 }
+
+
