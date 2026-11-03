@@ -1,0 +1,5 @@
+print("English  |  French")
+print(" Good Morning | Bonjour ")
+print(" It is a pleasure to meet you | C'est un plaisir de vous rencontrer. ")
+print(" Please call me tomorrow | Veuillez m'appeler demain. ")
+print(" Have a nice day! | Passe une bonne journée! ")
