@@ -1,0 +1,20 @@
+print("We Talked as Girls do, By Emily Dickinson")
+print("We talked as Girls do –")
+print("Fond, and late –")
+print("We speculated fair, on every subject, but the Grave –")
+print("Of our’s, none affair –")
+print("") # blank
+print("We handled Destinies, as cool –")
+print("As we – Disposers – be –")
+print("And God, a Quiet Party")
+print("to our authority –")
+print("") # blank
+print("But fondest, dwelt opon Ourself")
+print("As we eventual – be –")
+print("When Girls, to Women, softly raised")
+print("We – occupy – Degree –")
+print("") # blank
+print("We parted with a contract")
+print("To cherish, and to write")
+print("But Heaven made both, impossible")
+print("Before another night.")

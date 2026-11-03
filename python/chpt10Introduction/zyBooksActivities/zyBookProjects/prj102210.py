@@ -1,0 +1,5 @@
+print(" /\_/\      -----   ")
+print("( ' ' )   / Hello \ ")
+print("(  -  ) <     Mr.  |")
+print(" | | |    \ Coder!/ ")
+print("(__|__).    -----   ")
