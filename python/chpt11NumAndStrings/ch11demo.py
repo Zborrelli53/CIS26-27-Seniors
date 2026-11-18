@@ -74,49 +74,54 @@ def demo4_floor_and_mod():
     print(f"17 // 5 = {17 // 5}") # 3
     print(f"17 % 5 = {17 % 5}") # 2
 
+    #Convert a video length in seconds to minutes and seconds
+    videoSeconds = 754
+    minutes = videoSeconds // 60
+    seconds = videoSeconds % 60
+    print(f"Video length: {minutes} min {seconds} sec")
+
+    # Digit Tricks
+    n = 2026
+    print(f"Last digit {n % 10}") # 6
+    print(f"Without last digit: {n // 10}") #202
+    print(f"Even? remainder is: {n % 2}") # 0
+
+    
+
 demo4_floor_and_mod()
 
-screenMinutes = 437
-time = 60
+#Demo 5 - Built-In funcitons, the math module, roundoff (11.2)
+print("\n\nDemo 5 - Built-In funcitons, the math module, roundoff (11.2)")
 
-#Use // and & to store hours and mins,
-# then print: 7 hours and 17 minutes
+def demo5_functions():
+    from math import sqrt, pi
 
-screenHours = (screenMinutes // time)
-screenSeconds = screenMinutes % time
+    # Built-in functions: no import needed
+    print(f"abs(-42) = {abs(-42)}") # 42
+    print(f"round(3.14159) = {round(3.14159)}") # 3
+    print(f"round(3.14159, 3) = {round(3.14159, 3)}") # 3.142
+    print(f"max(52, 64, 37, 89, 34) = {max(52, 64, 37, 89, 34)}") # 89
+    print(f"min(52, 64, 37, 89, 34) = {min(52, 64, 37, 89, 34)}") # 34
 
-print(f"{screenHours} hours and {screenSeconds} minutes")
+    # math module functions: must be imported
+    a = 3
+    b = 4
+    hypotenuse = sqrt(a ** 2 + b ** 2)
+    print(f"Hypotenuse: {hypotenuse}")
 
-# -------------------------------------
-# Built-in functions return values
-# -------------------------------------
+    print("\n\nFind the area of a circle:")
+    radius = 2.5
+    area = pi * radius ** 2
+    print(f"Circle Area: {round(area, 2)}")
 
-print(f"\n\nBuilt-in Functions return values")
-
-print(f"abs(-42) -> {abs(-42)}")
-print(f"round(3.14159) -> {round(3.14159)}")
-print(f"round(3.14159, 2) -> {round(3.14159, 2)}")
-print(f"max(88, 95, 72) -> {max(88, 95, 77)}")
-print(f"min(4.99, 3.49) -> {min(4.99, 3.49)}")
-
+    print("\n\n Roundoff error: binary can't store 4.35 exactly")
+    price = 4.35
+    quantity = 100
+    total = price * quantity
+    print(f"Total = {round(total)}")
 
 
-# -------------------------------------
-# The math Module: import first
-# -------------------------------------
+demo5_functions()
 
-print("Three ways to import from a module:")
 
-print("from math import sqrt, cos")
-print("sqrt(81)")
 
-print("import math")
-print("math.sqrt(81)")
-
-print("from math import *")
-print("sqrt(81)")
-
-from math import *
-
-radius = sqrt(50)
-print(round(pi * radius ** 2, 2))
